@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### you can see the demo video by following the below link:-
+ <a href = "https://trinkerr-clone.vercel.app/"> (click here)</a> to see live demo.
 
 ## Available Scripts
 
