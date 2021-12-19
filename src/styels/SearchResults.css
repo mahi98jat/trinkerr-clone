@@ -1,0 +1,44 @@
+.wrapper {
+  height: 100px;
+  width: 600px;
+  border: 3px solid teal;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+}
+.nameAndNse,
+.pricePercentage {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.companyName,
+.currPrice {
+  font-weight: 700;
+  font-size: 22px;
+}
+.tag {
+  color: gray;
+}
+.delete,
+.addwatchlist {
+  display: none;
+  border: 0px;
+  border: none;
+  color: red;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+}
+
+.wrapper:hover .addwatchlist {
+  display: block;
+}
+
+.wrapper:hover .delete {
+  display: block;
+}
