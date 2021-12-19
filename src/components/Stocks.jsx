@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import data from "../db.json";
 import SearchResults from "./SearchResults";
 import WatchList from "./WatchList";
